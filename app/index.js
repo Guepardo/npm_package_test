@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import App from './app/Components/App'
+import App from './Components/App'
 
 import { createStore } from 'redux'
 import { createProvider } from 'react-redux'
