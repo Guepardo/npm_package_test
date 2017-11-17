@@ -9,7 +9,7 @@ import logger from 'redux-logger'
   
 import SampleReducer from './Sample'
   
-AppReducers = combineReducers({
+const AppReducers = combineReducers({
   SampleReducer,
 })
 

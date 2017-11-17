@@ -43,7 +43,7 @@ const initialState = {
   totalItems: 0
 }
 
-function CartReducer(state = initialState, action ) {
+function SampleReducer(state = initialState, action ) {
   switch(action.type) {
     case PURGE_CART: 
       return update(state, {
@@ -79,4 +79,4 @@ function CartReducer(state = initialState, action ) {
   }
 }
 
-export default CartReducer
+export default SampleReducer
