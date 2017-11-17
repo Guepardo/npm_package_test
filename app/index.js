@@ -1,4 +1,12 @@
 import React, { Component } from 'react'
+import App from './app/Components/App'
+
+import { createStore } from 'redux'
+import { createProvider } from 'react-redux'
+
+const store = createStore( () => {} )
+
+const ChatProvider = createProvider('chat')
 
 class Sample extends Component {
   constructor(props) {
@@ -7,9 +15,9 @@ class Sample extends Component {
 
   render() {
     return (
-      <div>
-        <p>This is a sample components</p> 
-      </div>
+      <ChatProvider store={store} >
+        <App /> 
+      </ChatProvider> 
     )
   }
 }
