@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import App from './Components/App'
 
-import { createStore } from 'redux'
+import store from './Store'
 import { createProvider } from 'react-redux'
-
-const store = createStore( () => {} )
 
 const ChatProvider = createProvider('chat')
 
