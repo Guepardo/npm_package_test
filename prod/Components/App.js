@@ -19,4 +19,7 @@ class App extends Component {
   }
 }
 
-export default connect()(App);
+export default connect(() => {
+  debugger;
+  return {};
+})(App);
