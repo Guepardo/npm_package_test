@@ -2,22 +2,22 @@ import React, { Component } from 'react'
 import App from './Components/App'
 
 import store from './Store'
-import { createProvider } from 'react-redux'
+import { Provider } from 'react-redux'
 
 const ChatProvider = createProvider('chat')
 
-class Sample extends Component {
+class app extends Component {
   constructor(props) {
     super(props)
   }
 
   render() {
     return (
-      <ChatProvider store={store} >
+      <Provider store={store} >
         <App /> 
-      </ChatProvider> 
+      </Provider> 
     )
   }
 }
 
-export default Sample
+export default app
