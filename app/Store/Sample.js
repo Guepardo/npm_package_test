@@ -3,6 +3,7 @@ import update from 'immutability-helper'
 //----------------------------------
 //  Constants
 //----------------------------------
+
 export const PURGE_CART = 'PURGE_CART'
 export const ADD_TO_CART = 'ADD_TO_CART'
 export const REMOVE_TO_CART = 'REMOVE_TO_CART'
