@@ -36,11 +36,21 @@ var App = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nops'
-        )
+        _react2.default.createElement('div', { className: 'box',
+          onClick: function onClick() {
+            return alert('nadas');
+          }
+        }),
+        _react2.default.createElement('div', { className: 'box',
+          onClick: function onClick() {
+            return alert('nadas');
+          }
+        }),
+        _react2.default.createElement('div', { className: 'box',
+          onClick: function onClick() {
+            return alert('nadas');
+          }
+        })
       );
     }
   }]);
@@ -49,7 +59,6 @@ var App = function (_Component) {
 }(_react.Component);
 
 exports.default = (0, _reactRedux.connect)(function (context) {
-  debugger;
   return {};
 })(App);
 

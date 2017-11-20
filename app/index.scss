@@ -1,11 +1,13 @@
 // -----------------
 //  VARIABLES
 //------------------
+@import "./styles/base.scss";
+@import "./styles/variables.scss"; 
 
 // -----------------
 //  COMPONETS
 //------------------
-@import "./Components/App/styles.scss"
+@import "./Components/App/styles.scss"; 
 
 // -----------------
 //  CONTAINERS

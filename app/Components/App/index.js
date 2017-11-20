@@ -8,14 +8,21 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <p>Nops</p> 
-      </div>
+      <div> 
+        <div className="box"
+          onClick={() => alert('nadas')}
+        ></div>
+        <div className="box"
+          onClick={() => alert('nadas')}
+        ></div>
+        <div className="box"
+          onClick={() => alert('nadas')}
+        ></div>
+      </div> 
     )
   }
 }
 
 export default connect( (context) => {
-  debugger
   return {}
 })(App)
